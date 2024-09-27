@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Sleeping ... zZz 4000<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (6fc91cb292ec8403658dcc63031962c6)] -> id: cms-login-submit]<-------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 4000<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-09-25T11:58:39 EDT" name="Default suite" finished-at="2024-09-25T11:59:01 EDT" duration-ms="21252">
+    <groups>
+    </groups>
+    <test started-at="2024-09-25T11:58:39 EDT" name="Default test" finished-at="2024-09-25T11:59:01 EDT" duration-ms="21252">
+      <class name="pagesTest.HomePageTest">
+        <test-method is-config="true" signature="initialReporting()[pri:0, instance:pagesTest.HomePageTest@fa4c865]" started-at="2024-09-25T11:58:39 EDT" name="initialReporting" finished-at="2024-09-25T11:58:39 EDT" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialReporting -->
+        <test-method is-config="true" signature="beforeClassSetUp()[pri:0, instance:pagesTest.HomePageTest@fa4c865]" started-at="2024-09-25T11:58:39 EDT" name="beforeClassSetUp" finished-at="2024-09-25T11:58:39 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassSetUp -->
+        <test-method is-config="true" signature="initialTest(java.lang.reflect.Method)[pri:0, instance:pagesTest.HomePageTest@fa4c865]" started-at="2024-09-25T11:58:39 EDT" name="initialTest" finished-at="2024-09-25T11:58:39 EDT" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pagesTest.HomePageTest.click_login_button_test() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialTest -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pagesTest.HomePageTest@fa4c865]" started-at="2024-09-25T11:58:39 EDT" name="setUp" finished-at="2024-09-25T11:58:52 EDT" duration-ms="12802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="click_login_button_test()[pri:0, instance:pagesTest.HomePageTest@fa4c865]" started-at="2024-09-25T11:58:52 EDT" name="click_login_button_test" finished-at="2024-09-25T11:59:00 EDT" duration-ms="8186" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sleeping ... zZz 4000<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (6fc91cb292ec8403658dcc63031962c6)] -> id: cms-login-submit]<-------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 4000<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- click_login_button_test -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:pagesTest.HomePageTest@fa4c865]" started-at="2024-09-25T11:59:00 EDT" name="tearUp" finished-at="2024-09-25T11:59:01 EDT" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method is-config="true" signature="afterEachTest(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:pagesTest.HomePageTest@fa4c865]" started-at="2024-09-25T11:59:00 EDT" name="afterEachTest" finished-at="2024-09-25T11:59:00 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pagesTest.HomePageTest.click_login_button_test() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=click_login_button_test status=SUCCESS method=HomePageTest.click_login_button_test()[pri:0, instance:pagesTest.HomePageTest@fa4c865] output=Sleeping ... zZz 4000<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:pagesTest.HomePageTest@fa4c865]" started-at="2024-09-25T11:59:01 EDT" name="publishReport" finished-at="2024-09-25T11:59:01 EDT" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- pagesTest.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
